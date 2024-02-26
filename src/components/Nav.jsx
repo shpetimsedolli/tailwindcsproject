@@ -6,7 +6,7 @@ const Nav = () => {
     <header>
       <div className="container flex justify-between items-center py-8">
         <img src={logo} alt="" />
-        <ul className="flex gap-12 items-center">
+        <ul className="flex gap-12 items-center md:hidden">
           <a className="aLinks" href="">
             About
           </a>
