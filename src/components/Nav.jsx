@@ -48,7 +48,10 @@ const Nav = () => {
             />
           )}
           {toggleMenu && (
-            <ul className="flex gap-12 items-center md:flex md:flex-col md:absolute md:top-0 md:items-center md:justify-center md:right-0 md:left-0 md:h-screen md:bg-white">
+            <ul
+              className="flex gap-12 items-center md:flex md:flex-col md:absolute md:top-0 md:items-center md:justify-center md:right-0 md:left-0 md:h-screen md:bg-white"
+              data-aos="fade-down"
+            >
               <Menu />
             </ul>
           )}
