@@ -21,4 +21,8 @@
   .transition1 {
     transition: 0.3s all;
   }
+  .herobackround {
+    background-color: #e7f3ff;
+    min-height: 100vh;
+  }
 }

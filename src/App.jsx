@@ -1,9 +1,12 @@
 import { Nav } from "./components";
-
+import { Hero } from "./sections";
 function App() {
   return (
     <>
-      <Nav />
+      <section className="herobackround">
+        <Nav />
+        <Hero />
+      </section>
     </>
   );
 }
