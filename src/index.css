@@ -16,14 +16,21 @@
     margin: 0 auto;
     padding: 0px 15px;
   }
+
   .aLinks {
     font-size: 14px;
   }
+
   .transition1 {
     transition: 0.3s all;
   }
+
   .herobackround {
     background-color: #e7f3ff;
     min-height: 100vh;
+  }
+
+  .heightf {
+    height: calc(100vh - 112px);
   }
 }
