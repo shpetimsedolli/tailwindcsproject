@@ -2,7 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { Nav } from "./components";
-import { Hero, Insights, Products, Ceo, Contact } from "./sections";
+import { Hero, Insights, Products, Ceo, Contact, Footer } from "./sections";
 
 function App() {
   AOS.init({ duration: 700 });
@@ -18,6 +18,7 @@ function App() {
         <Ceo />
       </div>
       <Contact />
+      <Footer />
     </>
   );
 }
