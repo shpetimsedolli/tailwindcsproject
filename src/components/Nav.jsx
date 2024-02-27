@@ -16,7 +16,7 @@ const Menu = () => (
     <a className="aLinks" href="">
       Login
     </a>
-    <button className="text-xs/[14px] py-[5px] border-2 border-[#722ED1] rounded-[16px] pr-[30px] pl-[30px] transition1 hover:bg-black hover:text-white">
+    <button className="text-xs/[14px] py-[5px] border-2 border-[#722ED1] rounded-[16px] pr-[30px] pl-[30px] transition1 hover:bg-[#722ED1] hover:text-white">
       Get Started
     </button>
   </>
