@@ -7,10 +7,10 @@ import google from "../assets/btn.png";
 const Contact = () => {
   return (
     <>
-      <div className="container flex">
+      <div className="container flex my-[100px] items-center justify-between ">
         <div className="flex flex-col">
           <h1 className="font-bold text-[36px]">
-            See why the world’s best companies use Qubly to{" "}
+            See why the world’s best <br /> companies use Qubly to{" "}
           </h1>
           <div className="flex items-center gap-3">
             <img src={line} alt="" />
@@ -26,7 +26,7 @@ const Contact = () => {
             <img src={sky} alt="" />
           </div>
         </div>
-        <div className="flex flex-col items-center gap-[16px] box w-[416px]">
+        <div className="flex flex-col items-center gap-[16px] p-[20px] box w-[416px]">
           <h3 className="font-bold text-[21px]">Sign Up</h3>
           <input
             className="border-[#8989A2] border-[1px] py-[15px] pl-4 outline-none w-full"
@@ -48,6 +48,9 @@ const Contact = () => {
           </button>
           <p>Or</p>
           <img src={google} alt="" />
+          <p className="">
+            Already have an account?<span className="">Login</span>
+          </p>
         </div>
       </div>
     </>
