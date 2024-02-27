@@ -33,4 +33,9 @@
   .heightf {
     height: calc(100vh - 112px);
   }
+  .backgroundCeo {
+    background: url(./assets/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
