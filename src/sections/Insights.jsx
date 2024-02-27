@@ -25,7 +25,7 @@ const Insights = () => {
             <img src={box1} alt="" />
           </div>
           <h4 className="font-bold text-[21px]">Data in real-time</h4>
-          <p className="text-[#8989A2] md:text-center md:max-w-[30%]">
+          <p className="text-[#8989A2] md:text-center md:max-w-[80%]">
             Collect data in real-time from multiple channels and move it into a
             data lake, in its original format.
           </p>
@@ -35,7 +35,7 @@ const Insights = () => {
             <img src={box2} alt="" />
           </div>
           <h4 className="font-bold text-[21px]">Powerful Algorithms</h4>
-          <p className="text-[#8989A2] md:text-center md:max-w-[30%]">
+          <p className="text-[#8989A2] md:text-center md:max-w-[80%]">
             Collect data in real-time from multiple channels and move it into a
             data lake, in its original format.
           </p>
@@ -45,7 +45,7 @@ const Insights = () => {
             <img src={box3} alt="" />
           </div>
           <h4 className="font-bold text-[21px]">Valuable business insights</h4>
-          <p className="text-[#8989A2] md:text-center  md:max-w-[30%]">
+          <p className="text-[#8989A2] md:text-center  md:max-w-[80%]">
             Collect data in real-time from multiple channels and move it into a
             data lake, in its original format.
           </p>

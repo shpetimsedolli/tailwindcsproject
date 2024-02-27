@@ -8,7 +8,7 @@ function App() {
   AOS.init({ duration: 700 });
   return (
     <>
-      <section className="herobackround">
+      <section className="herobackround sm: min-h-fit">
         <Nav />
         <Hero />
       </section>
